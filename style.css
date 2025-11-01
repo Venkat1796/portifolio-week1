@@ -1,0 +1,88 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  scroll-behavior: smooth;
+}
+
+nav.navbar {
+  background-color: #0a3d62;
+}
+
+nav a.nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+nav a.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #0a3d62, #3c6382);
+  height: 100vh;
+  text-align: center;
+}
+
+/* Section Titles */
+.section-title {
+  color: #0a3d62;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* Skills */
+.skills-badge {
+  margin: 8px;
+  background-color: #0a3d62;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.skills-badge:hover {
+  background-color: #ffd700;
+  color: black;
+}
+
+/* Projects */
+.project-card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Scroll Button */
+#scrollTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: #0a3d62;
+  color: white;
+  padding: 12px 15px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#scrollTopBtn:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  background-color: #0a3d62;
+  color: white;
+  padding: 20px 0;
+  font-size: 0.9rem;
+}
